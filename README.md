@@ -1,8 +1,3 @@
-Here’s your **clean, copy-paste ready `README.md`** (no extra formatting issues, directly usable on GitHub):
-
----
-
-```markdown
 # 🏥 Healthcare AI Bias Inspector
 
 > **Fair AI for Better Healthcare Decisions**
