@@ -4,4 +4,4 @@ scikit-learn
 matplotlib
 seaborn
 plotlyg
-shap
+shap==0.45.0
