@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* VIDEO */
+#bg-video {
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index:-1000;
+}
+
+/* OVERLAY */
+#overlay {
+    position: fixed;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.55);
+    z-index:-999;
+}
+
+/* LANDING PAGE */
+.landing {
+    text-align:center;
+    margin-top: 20%;
+    animation: fadeIn 1s ease;
+}
+
+.landing h1 {
+    font-size: 48px;
+}
+
+.landing p {
+    font-size: 20px;
+}
+
+/* FADE IN */
+@keyframes fadeIn {
+    from {opacity:0; transform: translateY(20px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+/* CARDS */
+[data-testid="metric-container"] {
+    transition: 0.3s;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-10px);
+}
+
+/* BUTTON */
+.stButton > button {
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+}
+
