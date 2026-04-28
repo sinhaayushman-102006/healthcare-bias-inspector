@@ -1,7 +1,9 @@
 streamlit
 pandas
+numpy
 scikit-learn
 matplotlib
 seaborn
-plotlyg
-shap
+plotly
+shap==0.44.1
+reportlab
